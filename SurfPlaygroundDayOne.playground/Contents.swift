@@ -55,7 +55,7 @@ class Player {
     }
 }
 
-// MARK: - Тут я создал экземпляр структуры, а потом использовал ее для создания класса
+// MARK: - Создал экземпляр класса. Инициализация Location не нужна потому что nil как я понял
 let andreyDeveloper = Player(level: .firstNumber)
 
 
