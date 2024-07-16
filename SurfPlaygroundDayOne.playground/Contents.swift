@@ -56,8 +56,7 @@ class Player {
 }
 
 // MARK: - Тут я создал экземпляр структуры, а потом использовал ее для создания класса
-let andreyLocation = Location(title: "Surf", number: 2, description: "Мы не знаем что это такое")
-let andreyDeveloper = Player(characterLocation: andreyLocation, level: .firstNumber)
+let andreyDeveloper = Player(level: .firstNumber)
 
 
 
